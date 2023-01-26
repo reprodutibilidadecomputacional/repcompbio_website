@@ -21,16 +21,18 @@ pip3 install -r requirements.txt
 
  * v0.1: versão inicial do website
 
-## COLABORAÇÕES
+## FEEDBACKS NO SITE
 
- * Buscamos colaboradores para desenvolvimento e manutenção de nossa página
- * Pedimos que abra novos `issues` para sugestões de alteração e/ou dê um `pull request` para correção de bugs
+ * Pedimos que abra novos `issues` para sugestões de alteração ou feedbacks
+ * Dê um `pull request` para solicitação de correções ou alterações diretas de códigos ou bugs
 
 ## CONTATOS
 
 ### Participação e colaboração no projeto
 
-* Entre em contato por [e-mail](reprodutibilidadecomputacional@gmail.com) ou pelo nosso Instagram ([@reprodcomputbio](https://www.instagram.com/reprodcomputbio/))
+ * Buscamos colaboradores para desenvolvimento e manutenção de nossa página
+
+* Entre em contato por [e-mail](email:reprodutibilidadecomputacional@gmail.com) ou pelo nosso Instagram ([@reprodcomputbio](https://www.instagram.com/reprodcomputbio/))
 
 ### Desenvolvimento do site
 
