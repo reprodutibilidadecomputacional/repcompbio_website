@@ -32,7 +32,7 @@ pip3 install -r requirements.txt
 
  * Buscamos colaboradores para desenvolvimento e manutenção de nossa página
 
-* Entre em contato por [e-mail](email:reprodutibilidadecomputacional@gmail.com) ou pelo nosso Instagram ([@reprodcomputbio](https://www.instagram.com/reprodcomputbio/))
+* Entre em contato por [e-mail](mailto:reprodutibilidadecomputacional@gmail.com) ou pelo nosso Instagram ([@reprodcomputbio](https://www.instagram.com/reprodcomputbio/))
 
 ### Desenvolvimento do site
 
