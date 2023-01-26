@@ -1,0 +1,54 @@
+{% extends "projectupdates/base.html" %}
+
+{% block content %}
+<section class="section container" id="contact">
+    {% if message_name %}
+    <center>
+        <h2>Obrigado {{ message_name }}!</h2>
+        <p>Recebemos sua mensagem e retornaremos seu contato em breve.</p>
+    </center>
+    <br><br><br>
+    {% else %}
+    <div class="row">
+        <div class="col l4 s12">
+            <h4>Contato</h4>
+            <p>Preencha o formulário para entrar em contato conosco.</p>
+            <p>Acesse também nossas redes sociais!</p>
+            <p>
+                <a href="https://twitter.com/reprodcomputbio" class="fa fa-twitter" style="font-size:48px;color:black" target="_blank"></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.instagram.com/reprodcomputbio/" class="fa fa-instagram" style="font-size:48px;color:black" target="_blank"></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.facebook.com/profile.php?id=100086967660205" class="fa fa-facebook" style="font-size:48px;color:black" target="_blank"></a>
+            </p>
+        </div>
+        <div class="col l7 offset-l1 s9">
+            <form form method="POST" action=".">
+                {% csrf_token %}
+                <div class="input-field">
+                    <i class="material-icons prefix">person</i>
+                    <input type="text" id="name" name="name">
+                    <label for="name">Nome</label>
+                </div>
+                <div class="input-field">
+                    <i class="material-icons prefix">email</i>
+                    <input type="email" id="email" name="email">
+                    <label for="email">E-mail</label>
+                </div>
+                <div class="input-field">
+                    <i class="material-icons prefix">message</i>
+                    <textarea id="message" class="materialize-textarea" name="message"></textarea>
+                    <label for="message">Mensagem</label>
+                </div>
+                <div class="input-field center">
+                    <button class="btn">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    {% endif %}
+</section>
+
+{% endblock content %}
+
+

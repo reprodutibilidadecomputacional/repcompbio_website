@@ -1,0 +1,96 @@
+/* PARTICIPE */
+.section-participe {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 40px;
+    justify-content: space-around;
+}
+.div-wrapper-participe {
+    width: 500px;
+    margin-right: 100px;
+
+}
+
+/* QUEM SOMOS */
+.quem-somos-header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 40px;
+
+}
+.wrapper-cards-line{
+    flex-wrap: wrap;
+    display: flex;
+    margin: 20px 200px;
+    justify-content: center;
+}
+.personal-card {
+    display: inline-block;
+    background-color: #EEEEEE;
+    border-radius: 30px;
+    padding: 12px 0 0 0;
+    margin: 20px;
+    width: 45%;
+    height: 300px;
+    overflow: auto;
+    border-top: solid 5px #466dc1;
+    border-bottom: solid 4px#ced4da;
+    border-left: solid 4px#ced4da;
+}
+.personal-card .personal-card-init {
+    display: inline-flex;
+    padding-left: 30px;
+}
+.personal-card .wrapper-card-tittle{
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 30px;
+}
+.personal-card .card-photo {
+    display: flex;
+    width: 170px;
+    height: 150px;
+    border-radius: 65px 0 65px 65px;
+
+}
+.personal-card .card-name {
+    font-weight: bold;
+    margin: 0;
+    font-size: 30px;
+}
+.personal-card .card-pronoums {
+    font-weight: bold;
+    margin: 0;
+    font-size: 20px;
+}
+.personal-card .card-email {
+    display: inline-flex;
+}
+.personal-card .wrapper-card-main-info {
+    font-size: 13px;
+    padding-left: 40px;
+    align-items: center;
+}
+.personal-card .card-info{
+    margin: 5px;
+}
+.wrapper-icons {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+.card-icon {
+    width: 30px;
+    height: 30px;
+}
+.card-icon:hover {
+    width: 32px;
+    height: 32px;
+}

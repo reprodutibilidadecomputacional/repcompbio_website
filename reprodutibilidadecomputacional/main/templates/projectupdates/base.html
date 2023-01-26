@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-language" content="pt-br">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="copyright" content="© 2022 Reprodutibilidade Computacional">
+    <meta name="description" content="Site do projeto Reprodutibilidade Computacional BIO">
+    <meta name="keywords" content="ciência aberta, reprodutibilidade computacional, documentação de código">
+
+    <title>Reprodutibilidade Computacional</title>
+
+    <!-- Static -->
+    {% load static %}
+    
+    <!-- Compiled and minified CSS -->
+    <link href="{% static 'projectupdates/css/materialize.css' %}" rel="stylesheet">
+    <link href="{% static 'projectupdates/css/styles.css' %}" rel="stylesheet">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'projectupdates/images/favicon/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'projectupdates/images/favicon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'projectupdates/images/favicon/favicon-16x16.png' %}">
+    <link rel="manifest" href="{% static 'projectupdates/images/favicon/site.webmanifest' %}">
+ 
+  </head>
+
+  <body>
+    <!--***** Header *****-->
+    <nav style="min-height: 100px;">
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo">
+          <img style="width:350px" src="{% static 'projectupdates/images/logo_long_name.png'%}">
+        </a>
+
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/quemsomos">Quem Somos</a></li>
+          <li><a href="/ebook">eBook</a></li>
+          <li><a href="/apoio">Apoio</a></li>
+          <li><a href="/contact">Contato</a></li>
+          <li><a href="/participe">Participe!</a></li>
+        </ul>
+      </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="/">Home</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/quemsomos">Quem Somos</a></li>
+      <li><a href="/">eBook</a></li>
+      <li><a href="/apoio">Apoio</a></li>
+      <li><a href="/contact">Contato</a></li>
+      <li><a href="/participe">Participe!</a></li>
+    </ul>
+    <!--***** Header End *****-->
+  
+    <!--***** Content Area Start *****-->
+    {% block content %}
+    {% endblock %}
+    <!-- ***** Content Area End *****-->
+  
+    <!--***** Footer *****-->
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l4 s12">
+            <h5 class="white-text;">Apoio</h5>
+            <p>
+              <img src="{% static 'projectupdates/images/Supporte_by_eLife_white.png' %}" alt='eLife logo' style="width:150px;">
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text;">Contato</h5>
+            <p>reprodutibilidadecomputacional@gmail.com</p>
+            <p>
+              <a href="https://twitter.com/reprodcomputbio" class="fa fa-twitter" style="font-size:40px" target="_blank"></a>
+              <a href="https://www.instagram.com/reprodcomputbio/" class="fa fa-instagram" style="font-size:40px" target="_blank"></a>
+              <a href="https://www.facebook.com/profile.php?id=100086967660205" class="fa fa-facebook" style="font-size:40px" target="_blank"></a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container center-align">&copy; 2022 Reprodutibilidade Computacional</div>
+      </div>
+    </footer>
+    <!--***** Footer End *****-->
+
+    <script>
+      $(document).ready(function(){
+        $(".sidenav").sidenav();
+      });
+    </script>
+  </body>
+</html>

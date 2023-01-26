@@ -1,0 +1,22 @@
+{% extends "projectupdates/base.html" %}
+{% load static %}
+
+{% block content %}
+<section class="section container" id="apoio">
+    <div class="row">
+        <div class="apoio">
+            <h4>Apoio</h4>
+            <p>O projeto Reprodutibilidade Computacional é inteiramente feito
+                por voluntários que se preocupam com o futuro e o presente da ciência
+                brasileira. </p>
+            <p> Agradecemos imensamente aos nossos apoiadores
+                por acreditarem em nosso projeto.
+            </p>
+            <p>Para se tornar um apoiador, acesse a página <a href="/participe">Participe!</a></p>
+            <br>
+            <h5>Apoio organizacional</h5>
+            <img src="{% static 'projectupdates/images/Supported_by_eLife_colour_transparent_background.png' %}" alt='eLife logo' style="width:20%;" />
+        </div>
+    </div>
+</section>
+{% endblock content %}

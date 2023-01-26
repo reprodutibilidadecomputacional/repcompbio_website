@@ -1,0 +1,46 @@
+{% extends "projectupdates/base.html" %}
+{% load static %}
+
+{% block content %}
+    <section class="quem-somos-header">
+        <h4>Quem somos</h4>
+        <p>Somos um grupo composto por estudantes de graduação, pós-graduação e bioinformatas brasileiros.</p>
+    </section>
+    <section class="wrapper-cards-line">
+        {% for person_id, attrib in people.items %}
+        <div class="personal-card">
+            <div class="personal-card-init">
+                <!--<b>{{ person_id }}</b>-->
+                <img class="card-photo"src="{% static 'projectupdates/images/pessoa.jpeg'%}" alt="foto pessoa">
+                <div class="wrapper-card-tittle">
+                    <p class="card-name">{{ attrib.public_name }}</p>
+                    <p class="card-pronoums">{{ attrib.pronoums }}</p>
+                <p class="card-email"><span class="material-symbols-outlined">mail</span> {{ attrib.email_address }}</p>
+                </div>
+            </div>
+
+            <div class="wrapper-card-main-info">
+                <p class="card-info">> {{ attrib.short_bio }}</p>
+                <p class="card-info">> {{ attrib.institution_name }}</p>
+                <p class="card-info">> {{ attrib.state }} - {{ attrib.country }}</p>
+            </div>
+
+            <div class="wrapper-icons">
+                <a target="lattes" href="{{ attrib.lattes }}"><img class="card-icon" src="{% static 'projectupdates/images/favicon/Lattes.png'%}" alt="icone lattes"></a>
+                <a target="google scholar" href="{{ attrib.google_scholar }}"><img class="card-icon" src="{% static 'projectupdates/images/favicon/google_scholar.png'%}" alt="icone google escolar"></a>
+                <a target="linkedin" href="{{ attrib.linkedin }}"><img class="card-icon" src="{% static 'projectupdates/images/favicon/linkedin.png'%}" alt="icone linkedin"></a>
+                {% if attrib.twitter %}
+                    <a target="twitter" href="{{ attrib.twitter }}"><img class="card-icon" src="{% static 'projectupdates/images/favicon/twitter.png'%}" alt="icone twitter"></a>
+                {% endif %}
+                {% if attrib.instagram %}
+                    <a target="instagram" href="{{ attrib.instagram }}"><img class="card-icon" src="{% static 'projectupdates/images/favicon/instagram.png'%}" alt="icone instagram"></a>
+                {% endif %}
+                {% if attrib.facebook %}
+                    <a target="facebook" href="{{ attrib.facebook }}"><img class="card-icon" src="{% static 'projectupdates/images/favicon/facebook.png'%}" alt="icone facebook"></a>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </section>
+
+{% endblock %}
