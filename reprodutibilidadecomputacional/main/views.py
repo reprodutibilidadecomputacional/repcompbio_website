@@ -47,12 +47,12 @@ def contact(request):
                       settings.EMAIL_HOST_USER,
                       [settings.RECIPIENT_ADDRESS])
             return render(request,
-                          'projectupdates/contact.html',
+                          'projectupdates/contato.html',
                           {'message_name': name})
     else:
         form = ContactForm()
     return render(request,
-                  'projectupdates/contact.html',
+                  'projectupdates/contato.html',
                   {'form': form})
 
 def ebook(request):
