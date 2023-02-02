@@ -12,7 +12,7 @@ virtualenv .venv
 source .venv/bin/activate
 ```
 
-### Dependencies
+### Install dependencies
 
 ```bash
 cd repcompbio_website/
@@ -21,7 +21,7 @@ pip3 install -r requirements.txt
 
 ## WEBSITE FEEDBACK
 
- * We kindly ask you to open new `issues` for change suggestions or feedback
+ * We kindly ask you to open new `issues` to suggest changes or to give feedback
  * To request bug corrections or direct changes to code, please open a `pull request`
 
 
@@ -29,7 +29,7 @@ pip3 install -r requirements.txt
 
 ### Contributing
 
- * Welcome, and thank you for your interest in contributing to our project!
+ * Thank you for your interest in contributing to our project!
  * We are looking for people to help us develop and maintain our webpage
 
 * Contact us via [e-mail](mailto:reprodutibilidadecomputacional@gmail.com) or through our Instagram ([@reprodcomputbio](https://www.instagram.com/reprodcomputbio/))
