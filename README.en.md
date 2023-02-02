@@ -4,7 +4,7 @@
 
 ## INSTALLATION 
 
-### Create a virtual envirnment with virtualenv
+### Create a virtual environment with virtualenv
 
 ```bash
 cd repcompbio_website/
