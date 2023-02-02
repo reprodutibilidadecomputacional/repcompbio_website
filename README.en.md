@@ -1,7 +1,7 @@
 # Website Reprodutibilidade Computacional Bio
 
 <p align="center">
-*English | [Português](README.md)*
+English | [<a href="README.md">Português</a>
 </p>
 
 ## INSTALLATION 
