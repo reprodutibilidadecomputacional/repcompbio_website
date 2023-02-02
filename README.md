@@ -1,6 +1,6 @@
 # Website Reprodutibilidade Computacional Bio 
 
-*Read this in other languages: [English](README.en.md), [Português](README.md)*
+*Read this in other languages: [English](README.en.md)  | [Português](README.md)*
 
 ## INSTALAÇÃO
 
