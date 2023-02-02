@@ -645,16 +645,17 @@ ul.staggered-list li {
     text-align: center; } }
 
 .page-footer {
-  padding-top: 20px;
   color: #fff;
-  background-color: #8594B6; }
+  background-color: #8594B6;
+  align-items: center;
+  padding: 0px 0px; }
   .page-footer .footer-copyright {
     overflow: hidden;
-    min-height: 50px;
+    min-height: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0px;
+    padding: 0px 0px;
     color: rgba(250, 250, 250, 0.8);
     background-color: #081d4a; }
 
@@ -993,7 +994,7 @@ table span.badge {
 .row {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px; }
+  margin-bottom: 0px; }
   .row:after {
     content: "";
     display: table;
@@ -1001,7 +1002,6 @@ table span.badge {
   .row .col {
     float: left;
     box-sizing: border-box;
-    padding: 0 0.75rem;
     min-height: 1px; }
     .row .col[class*="push-"], .row .col[class*="pull-"] {
       position: relative; }
