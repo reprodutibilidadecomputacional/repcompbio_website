@@ -2,7 +2,7 @@
 
 *Read this in other languages: [English](README.en.md)| [Português](README.md)*
 
-## INSTALLATION
+## INSTALLATION 
 
 ### Create a virtual envirnment with virtualenv
 
