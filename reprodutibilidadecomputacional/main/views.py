@@ -1,13 +1,11 @@
 from django.conf import settings
 from django.core.mail import send_mail
-from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 from django.shortcuts import render
 
 from django.http import HttpResponse
 from django.template import loader
 
 from .forms import ContactForm
-from .models import News
 from .models import People
 
 
@@ -16,20 +14,10 @@ def index(request):
     return render(request=request,
                   template_name='projectupdates/overview.html')
 
-def blog(request):
-    #post_list = News.objects.all().order_by('-published_date')
-
-    # Set up pagination
-    p = Paginator(News.objects.all().order_by('-published_date'), 5)
-    page = request.GET.get('page')
-    posts = p.get_page(page)
-    nums = "a" * posts.paginator.num_pages
-
-
+def instafeed(request):
     return render(request=request,
-                  template_name='projectupdates/blog.html',
-                  context={"posts": posts,
-                           "nums": nums})
+                  template_name='projectupdates/instafeed.html')
+
 
 def contact(request):
     if request.method == 'POST':
