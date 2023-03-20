@@ -1,15 +1,5 @@
 from django.db import models
-from datetime import datetime
-from tinymce.models import HTMLField
 
-
-class News(models.Model):
-    news_title = models.CharField('news title',max_length=200)
-    news_text = HTMLField()
-    published_date = models.DateTimeField('date published', default=datetime.now())
-
-    def __str__(self):
-        return self.news_title
 
 class People(models.Model):
     public_name = models.CharField('public name', max_length=200)
