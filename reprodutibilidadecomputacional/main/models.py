@@ -9,6 +9,7 @@ class People(models.Model):
     email_address = models.EmailField('email address', max_length=300)
     country = models.CharField('country', max_length=200)
     state = models.CharField('state', max_length=200)
+    photo_path = models.CharField('path to photo', max_length=300)
     lattes = models.URLField('link to lattes', max_length=200,
                                null=True, blank=True)
     google_scholar = models.URLField('link to google scholar', max_length=200,

@@ -78,5 +78,6 @@ def quemsomos(request):
         context['people'][person.id]['instagram'] = person.instagram
         context['people'][person.id]['facebook'] = person.facebook
         context['people'][person.id]['linkedin'] = person.linkedin
+        context['people'][person.id]['photo_path'] = person.photo_path
 
     return HttpResponse(template.render(context, request))

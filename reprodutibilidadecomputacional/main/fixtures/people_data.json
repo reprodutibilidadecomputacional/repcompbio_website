@@ -1,0 +1,233 @@
+[
+    {
+        "model": "main.People",
+        "pk":1,
+        "fields": {
+            "public_name": "Alexandre Colato",
+            "pronoums": "Ele/dele",
+            "short_bio": "Professor em Física com trabalhos nas áreas de educação, física básica e aplicada.",
+            "institution_name": "DCNME - UFSCar",
+            "email_address": "colato@ufscar.br",
+            "country": "Brasil",
+            "state": "São Paulo",
+            "lattes": "http://lattes.cnpq.br/5460973924624757",
+            "google_scholar": "https://scholar.google.com.br/citations?user=YtJwQgUAAAAJ&h",
+            "twitter": "https://mobile.twitter.com/colato",
+            "instagram": "",
+            "facebook": "",
+            "linkedin": "",
+            "photo_path": "projectupdates/images/AlexandreColato.png"
+
+        }
+    },
+    {
+        "model": "main.People",
+        "pk":2,
+        "fields": {
+            "public_name": "Alicia Melo",
+            "pronoums": "Ela/dela",
+            "short_bio": "Graduada em Engenharia Agronômica pela Univasf, com período sanduíche pelo Ciência sem Fronteiras no curso de genética da Trinity College Dublin. Durante a graduação, estudou o impacto de manejos agrícolas na comunidade microbiana do solo através de análises de metagenômica e bioinformática. Atualmente, é doutoranda do programa de Bioinformática da USP, e sua tese tem como foco a caracterização in silico de regiões promotoras de genes relacionados ao metabolismo de carbono em cana-de-açúcar.",
+            "institution_name": "Universidade de São Paulo",
+            "email_address": "aliemelo@usp.br",
+            "country": "Brasil",
+            "state": "São Paulo",
+            "lattes": "http://lattes.cnpq.br/9221425308799298",
+            "google_scholar": "https://scholar.google.com.br/citations?user=tNcryE8AAAAJ&hl=en",
+            "twitter": "",
+            "instagram": "",
+            "facebook": "",
+            "linkedin": "https://www.linkedin.com/in/alicia-melo-01058a142/",
+            "photo_path": "projectupdates/images/AliciaLie.jpeg"
+
+        }
+    },
+    {
+        "model": "main.People",
+        "pk":3,
+        "fields": {
+            "public_name": "Cissa Gatto",
+            "pronoums": "Ela/dela",
+            "short_bio": "Bacharel em Engenharia de Computação. Mestre e Doutoranda em Ciência da Computação. Professora, Palestrante, Escritora de Artigos Técnicos e Científicos, Gamer, Otaku, Geek, Nerd, Cantora e amante do vôlei.",
+            "institution_name": "UFSCar",
+            "email_address": "elainececiliagatto@gmail.com",
+            "country": "Brasil",
+            "state": "São Paulo",
+            "lattes": "http://lattes.cnpq.br/8559022477811603",
+            "google_scholar": "https://scholar.google.com.br/citations?user=f8UJfeYAAAAJ&hl=pt-BR",
+            "twitter": "https://twitter.com/CissaGatto",
+            "instagram": "https://www.instagram.com/cissagatto/",
+            "facebook": "https://www.facebook.com/cissagatto",
+            "linkedin": "https://www.linkedin.com/in/elainececiliagatto/",
+            "photo_path": "projectupdates/images/CissaGatto.png"
+
+        }
+    },
+    {
+        "model": "main.People",
+        "pk":4,
+        "fields": {
+            "public_name": "Davi Xavier",
+            "pronoums": "Ele/dele",
+            "short_bio": "Graduado em Biomedicina no Centro Universitário UNIFAS e atualmente é estudante de Doutorado Direto no Programa de Pós-Graduação em Biologia da Relação Patógeno-Hospedeiro, sediado no Departamento de Parasitologia do Instituto de Ciências Biomédicas (ICB) - Universidade de São Paulo (USP).",
+            "institution_name": "Universidade de São Paulo",
+            "email_address": "davi_xavier@icb.usp.br",
+            "country": "Brasil",
+            "state": "São Paulo",
+            "lattes": "https://lattes.cnpq.br/8955529204654248",
+            "google_scholar": "",
+            "twitter": "https://twitter.com/davixavier528",
+            "instagram": "https://www.instagram.com/davi_sall/",
+            "facebook": "",
+            "linkedin": "https://www.linkedin.com/in/davisalles528/",
+            "photo_path": "projectupdates/images/DaviSalles.jpg"
+
+        }
+    },
+    {
+        "model": "main.People",
+        "pk":5,
+        "fields": {
+            "public_name": "Ingrid Souza",
+            "pronoums": "Ela/dela",
+            "short_bio": "Eu me chamo Ingrid, sou Biomédica e atualmente faço uma segunda graduação em biotecnologia e trabalho no laboratório de biologia molecularde plantas da Universidade Federal do Ceará.",
+            "institution_name": "UFC",
+            "email_address": "ingridsouza661@gmail.com",
+            "country": "Brasil",
+            "state": "Ceará",
+            "lattes": "https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K1166811Z7&tokenCaptchar=03AD1IbLC3OCZLZsVe-kvMGN3Bu0Nku0BLzN4mGPt4iMwD7z8nqpmV3teJ_",
+            "google_scholar": "",
+            "twitter": "",
+            "instagram": "",
+            "facebook": "",
+            "linkedin": "https://www.linkedin.com/in/ingrid-souza-47778625b/",
+            "photo_path": "projectupdates/images/logo1.png"
+
+        }
+    },
+    {
+        "model": "main.People",
+        "pk":6,
+        "fields": {
+            "public_name": "Isabela Dias Erthal",
+            "pronoums": "Ela/dela",
+            "short_bio": "Graduada e mestranda pela FMRP/USP. Amo bioinformática, ciência de dados (na verdade, tudo que envolva dados) e tecnologia em um geral!",
+            "institution_name": "Universidade de São Paulo",
+            "email_address": "isabela.erthal@usp.br",
+            "country": "Brasil",
+            "state": "São Paulo",
+            "lattes": "http://lattes.cnpq.br/0414970338786824",
+            "google_scholar": "",
+            "twitter": "",
+            "instagram": "",
+            "facebook": "",
+            "linkedin": "https://www.linkedin.com/in/isabela-dias-erthal/",
+            "photo_path": "projectupdates/images/IsabelaErthal.png"
+
+        }
+    },
+    {
+        "model": "main.People",
+        "pk":7,
+        "fields": {
+            "public_name": "João Vitor Novoletti",
+            "pronoums": "Ele/dele",
+            "short_bio": "",
+            "institution_name": "Universidade de São Paulo",
+            "email_address": "joao.novoletti@gmail.com",
+            "country": "Brasil",
+            "state": "São Paulo",
+            "lattes": "",
+            "google_scholar": "",
+            "twitter": "",
+            "instagram": "",
+            "facebook": "",
+            "linkedin": "",
+            "photo_path": "projectupdates/images/JoaoNovoletti.jpeg"
+
+        }
+    },
+    {
+        "model": "main.People",
+        "pk":8,
+        "fields": {
+            "public_name": "Lucas Farias da Silva",
+            "pronoums": "Ele/dele",
+            "short_bio": "Sou estudante de graduação de Ciências Biológicas na Universidade Federal do Ceará, faço parte do Laboratório de Biologia Molecular de Plantas e trabalho com proteômica de sementes.",
+            "institution_name": "Universidade Federal do Ceará",
+            "email_address": "lucasfarias266@gmail.com",
+            "country": "Brasil",
+            "state": "Ceará",
+            "lattes": "http://lattes.cnpq.br/8210693628449330",
+            "google_scholar": "",
+            "twitter": "",
+            "instagram": "https://www.instagram.com/farias0_/",
+            "facebook": "https://www.facebook.com/lucas.farias90/",
+            "linkedin": "https://www.linkedin.com/in/lucas-farias-b476a6259/",
+            "photo_path": "projectupdates/images/LucasFarias.jpg"
+
+        }
+    },
+    {
+        "model": "main.People",
+        "pk":9,
+        "fields": {
+            "public_name": "Luís Augusto Eijy Nagai",
+            "pronoums": "Ele/dele",
+            "short_bio": "Pesquisador Pós-doutorando em bioinformática no Instituto de Biociências Quantitativas da Universidade de Tóquio, especializado em construção de pipelines e análise de dados de sequenciamento de alto rendimento. Atualmente trabalha com aplicação de teoria dos grafos para extração de genes centrais de redes de genes co-expressos adquiridos por sequenciamento de RNA de célula única (scRNA-seq). Pipelines produzidas utilizando R, Python e Bash. Nas horas livres gosta de fazer trilhas e pedalar.",
+            "institution_name": "University of Tokyo",
+            "email_address": "nagai@iqb.u-tokyo.ac.jp",
+            "country": "Japão",
+            "state": "Tokyo",
+            "lattes": "http://lattes.cnpq.br/4000756892333259",
+            "google_scholar": "https://scholar.google.com/citations?user=55GajMkAAAAJ&hl=en",
+            "twitter": "https://twitter.com/eijynagai",
+            "instagram": "https://www.instagram.com/nagai2030/",
+            "facebook": "https://www.facebook.com/eijy.nagai",
+            "linkedin": "https://www.linkedin.com/in/enagai",
+            "photo_path": "projectupdates/images/LuisNagai.jpg"
+
+        }
+    },
+    {
+        "model": "main.People",
+        "pk":10,
+        "fields": {
+            "public_name": "Raissa Melo de Sousa",
+            "pronoums": "Ela/dela",
+            "short_bio": "Médica Veterinária e Doutoranda em Genética e Biologia Molecular,  com ênfase em oncologia comparada.  ",
+            "institution_name": "Universidade Federal do Pará (UFPA)",
+            "email_address": "raissa.sousa@icb.ufpa.br",
+            "country": "Brasil",
+            "state": "Pará",
+            "lattes": "lattes.cnpq.br/4478932426760006",
+            "google_scholar": "scholar.google.com.br/citations?user=zKQKJZ8AAAAJ&hl=pt-BR",
+            "twitter": "twitter.com/RAISSA_MEL0",
+            "instagram": "www.instagram.com/raissa_melo_/",
+            "facebook": "www.facebook.com/raissa.melo.104",
+            "linkedin": "www.linkedin.com/in/raissa-sousa-057ab7169/",
+            "photo_path": "projectupdates/images/RaissaMelo.jpg"
+
+        }
+    },
+    {
+        "model": "main.People",
+        "pk":11,
+        "fields": {
+            "public_name": "Túlio de Lima Campos",
+            "pronoums": "Ele/dele",
+            "short_bio": "Bacharel em Eng. da Computação pela Universidade de Pernambuco, Mestre em Ciências/Bioinformática e Doutor em Ciências Veterinárias pela Universidade de Melbourne (Austrália). É Honorary Fellow da Universidade de Melbourne e Tecnologista em Saúde Pública na Fundação Oswaldo Cruz, lotado no Núcleo de Bioinformática da Fiocruz Pernambuco. É membro da Rede Genômica Fiocruz que atua no sequenciamento e análise de dados de SARS-CoV-2 e outros virus patogênicos no Brasil.",
+            "institution_name": "Fiocruz - Pernambuco",
+            "email_address": "tulio.campos@fiocruz.br",
+            "country": "Brasil",
+            "state": "Pernambuco",
+            "lattes": "http://lattes.cnpq.br/1367273895160398",
+            "google_scholar": "https://scholar.google.com/citations?user=SJBuVVoAAAAJ&hl=pt-BR",
+            "twitter": "https://twitter.com/CamposBioinfo",
+            "instagram": "https://www.instagram.com/tuliovorax/",
+            "facebook": "https://www.facebook.com/tuliocampos1",
+            "linkedin": "https://www.linkedin.com/in/tcampos/",
+            "photo_path": "projectupdates/images/TulioCampos.jpg"
+
+        }
+    }    
+]
