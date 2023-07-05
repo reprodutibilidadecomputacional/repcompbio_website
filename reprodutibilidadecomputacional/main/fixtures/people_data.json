@@ -100,7 +100,7 @@
             "instagram": "",
             "facebook": "",
             "linkedin": "https://www.linkedin.com/in/ingrid-souza-47778625b/",
-            "photo_path": "projectupdates/images/logo1.png"
+            "photo_path": "projectupdates/images/IngridSouza.jpg"
 
         }
     },
@@ -131,7 +131,7 @@
         "fields": {
             "public_name": "João Vitor Novoletti",
             "pronoums": "Ele/dele",
-            "short_bio": "",
+            "short_bio": "Graduado em biologia, trabalhei com análise in silico de promotores em cana-de-açúcar. Atualmente, pretendo me aprofundar mais no que tange a bioinformática e os softwares utilizados no tratamento de dados biológicos.",
             "institution_name": "Universidade de São Paulo",
             "email_address": "joao.novoletti@gmail.com",
             "country": "Brasil",
@@ -212,6 +212,27 @@
     {
         "model": "main.People",
         "pk":11,
+        "fields": {
+            "public_name": "Renato",
+            "pronoums": "Ele/dele",
+            "short_bio": "Biólogo, bioinformata, educador e pesquisador de pós-doutorado. Preocupado com questões relacionadas à cultura científica.",
+            "institution_name": "Universidade de São Paulo",
+            "email_address": "renatoacsantos@gmail.com",
+            "country": "Brasil",
+            "state": "São Paulo",
+            "lattes": "http://lattes.cnpq.br/3339727232509001",
+            "google_scholar": "https://scholar.google.com.br/citations?user=22CKgnIAAAAJ",
+            "twitter": "https://twitter.com/CorreaSantosRA",
+            "instagram": "https://www.instagram.com/renato.correa.182/",
+            "facebook": "https://www.facebook.com/renato.correa.182",
+            "linkedin": "https://www.linkedin.com/in/renato-augusto-corr%C3%AAa-dos-santos-263202132/",
+            "photo_path": "projectupdates/images/RenatoCorreaSantos.jfif"
+
+        }
+    },
+    {
+        "model": "main.People",
+        "pk":12,
         "fields": {
             "public_name": "Túlio de Lima Campos",
             "pronoums": "Ele/dele",
