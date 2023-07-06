@@ -10,7 +10,6 @@
 .div-wrapper-participe {
     width: 500px;
     margin-right: 100px;
-
 }
 
 /* QUEM SOMOS */
@@ -19,9 +18,8 @@
     flex-direction: column;
     margin-left: 200px;
     margin-top: 40px;
-
 }
-.wrapper-cards-line{
+.wrapper-cards-line {
     flex-wrap: wrap;
     display: flex;
     margin: 20px 200px;
@@ -33,19 +31,19 @@
     border-radius: 30px;
     padding: 12px 0 0 0;
     margin: 20px;
-    width: 55%;
+    width: 80%;
     height: auto;
     overflow: auto;
-    border-top: solid 4px#ced4da;
-    border-bottom: solid 4px#ced4da;
-    border-left: solid 4px#ced4da;
-    border-right: solid 4px#ced4da;
+    border-top: solid 4px #ced4da;
+    border-bottom: solid 4px #ced4da;
+    border-left: solid 4px #ced4da;
+    border-right: solid 4px #ced4da;
 }
 .personal-card .personal-card-init {
     display: inline-flex;
     padding-left: 30px;
 }
-.personal-card .wrapper-card-tittle{
+.personal-card .wrapper-card-tittle {
     text-align: center;
     font-size: 15px;
     display: flex;
@@ -58,11 +56,10 @@
     display: flex;
     width: 150px;
     height: 150px;
-    border-radius: 40px 40px 40px 40px;
+    border-radius: 25%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease-in-out;
     background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
-
 }
 .personal-card .card-name {
     font-weight: bold;
@@ -84,7 +81,7 @@
     padding-left: 40px;
     align-items: center;
 }
-.personal-card .card-info{
+.personal-card .card-info {
     margin: 5px;
 }
 .wrapper-icons {
@@ -99,4 +96,90 @@
 .card-icon:hover {
     width: 32px;
     height: 32px;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 915px) {
+    .section-participe {
+        margin-left: 0;
+        padding-right: 0;
+    }
+
+    .div-wrapper-participe {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .quem-somos-header {
+        margin-left: 40px;
+    }
+
+    .wrapper-cards-line {
+        margin: 20px 0;
+    }
+
+    .personal-card {
+        width: 100%;
+        margin: 10px;
+        padding: 12px;
+        border: solid 2px #ced4da;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .personal-card .personal-card-init {
+        flex-basis: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .personal-card .wrapper-card-tittle {
+        flex-basis: 100%;
+        text-align: center;
+        padding-left: 15px;
+    }
+
+    .personal-card .card-photo {
+        width: 100px;
+        height: 100px;
+        border-radius: 25%;
+        margin: 0 auto;
+    }
+
+    .personal-card .card-name {
+        font-size: 20px;
+    }
+
+    .personal-card .card-pronoums {
+        font-size: 12px;
+    }
+
+    .personal-card .card-email {
+        display: block;
+        font-size: 12px;
+    }
+
+    .personal-card .wrapper-card-main-info {
+        font-size: 11px;
+        padding-left: 0;
+        align-self: flex-start;
+        text-align: center;
+    }
+
+    .personal-card .card-info {
+        margin: 5px;
+        text-align: justify;
+    }
+
+    .card-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .card-icon:hover {
+        width: 22px;
+        height: 22px;
+    }
 }
