@@ -192,6 +192,48 @@
         "model": "main.People",
         "pk":10,
         "fields": {
+            "public_name": "Maryam Chaib De Mares",
+            "pronoums": "Ela/dela",
+            "short_bio": "Maryam is an evolutionary biologist studying the molecular underpinnings of symbiosis. She holds a Ph.D. in computational biology from the University of Groningen in the Netherlands. Parallel to her graduate studies, she has trained extensively on management of research data as well as taking part in open data initiatives to bring data skills to all interested citizens. Ultimately, she would like to contribute to a culture of open science across academic, private and public sectors.",
+            "institution_name": "Universidad Nacional de Colombia",
+            "email_address": "mchaib@unal.edu.co",
+            "country": "Colômbia",
+            "state": "Bogotá",
+            "lattes": "",
+            "google_scholar": "",
+            "twitter": "https://twitter.com/MChaibDeMares",
+            "instagram": "",
+            "facebook": "",
+            "linkedin": "https://www.linkedin.com/in/maryamchaibdemares/",
+            "photo_path": "projectupdates/images/MaryamChaib.jpg"
+
+        }
+    },
+    {
+        "model": "main.People",
+        "pk":11,
+        "fields": {
+            "public_name": "Matiz Luisa",
+            "pronoums": "Ela/dela",
+            "short_bio": "Licenciada en Biología. Máster en Informática, candidato a doctor en Biología Molecular. Otaku y amante del yoga.",
+            "institution_name": "Hokkaido University",
+            "email_address": "matiz.luisa@elms.hokudai.ac.jp",
+            "country": "Japão",
+            "state": "",
+            "lattes": "",
+            "google_scholar": "",
+            "twitter": "",
+            "instagram": "",
+            "facebook": "",
+            "linkedin": "",
+            "photo_path": "projectupdates/images/MatizLuisa.jpg"
+
+        }
+    },
+    {
+        "model": "main.People",
+        "pk":12,
+        "fields": {
             "public_name": "Raissa Melo de Sousa",
             "pronoums": "Ela/dela",
             "short_bio": "Médica Veterinária e Doutoranda em Genética e Biologia Molecular,  com ênfase em oncologia comparada.  ",
@@ -211,7 +253,7 @@
     },
     {
         "model": "main.People",
-        "pk":11,
+        "pk":13,
         "fields": {
             "public_name": "Renato",
             "pronoums": "Ele/dele",
@@ -232,7 +274,28 @@
     },
     {
         "model": "main.People",
-        "pk":12,
+        "pk":14,
+        "fields": {
+            "public_name": "Thayana Vieira Tavares",
+            "pronoums": "Ela/dela",
+            "short_bio": "Biotecnologista pela Universidade Federal de São Carlos, Bioinformata Pleno na Neoprospecta S.A., co-fundadora do PyLadies Bioinfo, Técnica em Informática pelo Instituto Federal do Pará.",
+            "institution_name": "Neoprospecta S.A.",
+            "email_address": "thayana.vt@gmail.com",
+            "country": "Brasil",
+            "state": "Pará",
+            "lattes": "https://lattes.cnpq.br/6055583178395953",
+            "google_scholar": "",
+            "twitter": "",
+            "instagram": "",
+            "facebook": "",
+            "linkedin": "https://www.linkedin.com/in/thayanatavares/",
+            "photo_path": "projectupdates/images/ThayanaTavares.jpg"
+
+        }
+    },
+    {
+        "model": "main.People",
+        "pk":15,
         "fields": {
             "public_name": "Túlio de Lima Campos",
             "pronoums": "Ele/dele",
