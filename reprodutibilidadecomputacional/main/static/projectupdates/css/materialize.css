@@ -413,9 +413,9 @@ textarea {
 
 ul:not(.browser-default) {
   padding-left: 0;
-  list-style-type: none; }
+  list-style-type: disc !important; }
   ul:not(.browser-default) > li {
-    list-style-type: none; }
+    list-style-type: disc !important; }
 
 a {
   color: #466dc1;
