@@ -4,11 +4,13 @@
 
 ## INSTALAÇÃO
 
+* Estaremos utilizando a versão de Python 3.9
+
 ### Criação de ambiente com virtualenv
 
 ```bash
 cd repcompbio_website/
-virtualenv .venv
+virtualenv --python=python3.9 .venv
 source .venv/bin/activate
 ```
 
