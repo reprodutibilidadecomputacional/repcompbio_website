@@ -4,3 +4,4 @@ __pycache__/
 
 settings.py
 reprodutibilidadecomputacional/db.sqlite3
+repcompbio_ebook/

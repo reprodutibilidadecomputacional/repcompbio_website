@@ -1,0 +1,4 @@
+site_name: Reprodutibilidade Computacional
+theme: readthedocs
+docs_dir: repcompbio_ebook/docs
+site_dir: repcompbio_ebook/site

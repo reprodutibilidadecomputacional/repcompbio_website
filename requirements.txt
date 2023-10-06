@@ -8,3 +8,4 @@ django_environ==0.9.0
 environ==1.0
 django-tinymce==3.5.0
 django-materializecss-form==1.1.17
+django-mkdocs==0.1.2
